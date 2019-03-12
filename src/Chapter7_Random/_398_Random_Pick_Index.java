@@ -4,7 +4,8 @@ import java.util.*;
  * 
 398. Random Pick Index
 Medium
-Given an array of integers with possible duplicates, randomly output the index of a given target number. You can assume that the given target number must exist in the array.
+Given an array of integers with possible duplicates, randomly output the index of a given target number. You can assume that the 
+given target number must exist in the array.
 
 Note:
 The array size can be very large. Solution that uses too much extra space will not pass the judge.
@@ -44,7 +45,8 @@ class Solution {
     
     }*/
     
-    //this is Reservoir Sampling: how to make sure the res we get is equal probability? Make the probability of the first res we get is 100%, the probability of the second res we get is 1/2, the third is 1/3...
+    //this is Reservoir Sampling: how to make sure the res we get is equal probability? Make the probability of the first res we 
+    //get is 100%, the probability of the second res we get is 1/2, the third is 1/3...
     //time complexity O(n), space complexity O(1)
     public int pick(int target){
         int res = -1;
